@@ -19,8 +19,10 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
          IssuesAppTheme {
-             IssueItem()
+             IssuesScreen()
          }
         }
     }
 }
+
+
